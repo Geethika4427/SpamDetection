@@ -38,8 +38,8 @@ Backend/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Geethika4427/SpamDetection.git
-cd backend
+- git clone https://github.com/Geethika4427/SpamDetection.git
+- cd backend
 
 ### 2. Install Dependencies
 
@@ -47,12 +47,12 @@ npm install
 
 ### 3. Setup .env File
 Create a .env file and add:
-PORT=3000
-DB_NAME=your_db_name
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
-DB_HOST=localhost
-JWT_SECRET=your_jwt_secret
+- PORT=3000
+- DB_NAME=your_db_name
+- DB_USER=your_mysql_username
+- DB_PASSWORD=your_mysql_password
+- DB_HOST=localhost
+- JWT_SECRET=your_jwt_secret
 
 ### 4. Run Sample Seeder Script
 
@@ -79,7 +79,7 @@ GET http://localhost:3000/search/phone?q=<phone> – Search by phone number
 GET http://localhost:3000/search/details/:phone – Get full contact details by phone
 
 ## Authorization
-Pass JWT token in the header for protected routes:
+Pass JWT token in the header for protected routes:-
 Authorization: Bearer <your_token>
 
 ## Testing the API
